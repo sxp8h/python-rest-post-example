@@ -5,7 +5,7 @@ import random	# Incluida en python
 import logging	# Incluida en python
 import json 	# Incluida en python
 import requests	# Descargar con PIP
-import time		# Incluida con python
+import time	# Incluida con python
 
 # Linea donde cambiamos los colores del log (no funciona en windows)
 logging.addLevelName(logging.WARNING, "\033[1;93m%s\033[1;0m" % logging.getLevelName(logging.WARNING))
